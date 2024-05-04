@@ -21,12 +21,16 @@
   <body class="min-h-[100vh] rounded-[50px] flex justify-center items-center">
     <div class="container w-[300px] h-[300px]">
       <div class="card h-full rounded-[50px] transiton-5">
-        <div class="logo absolute ">
-          <span class="circle circle1 transiton-5"></span>
-          <span class="circle circle2 transiton-5"></span>
-          <span class="circle circle3 transiton-5"></span>
-          <span class="circle circle4 transiton-5"></span>
-          <span class="circle circle5 transiton-5">
+        <div class="logo absolute right-0 top-0">
+          <span class="circle circle1 transiton-5 w-[120px] delay-0"></span>
+          <span
+            class="circle circle2 transiton-5 w-[100px] delay-[0.4s]"
+          ></span>
+          <span class="circle circle3 transiton-5 w-[80px] delay-[0.8s]"></span>
+          <span class="circle circle4 transiton-5 w-[60px] delay-[1.2s]"></span>
+          <span
+            class="circle circle5 transiton-5 w-[40px] delay-[1.6s] flex items-center justify-center"
+          >
             <i class="fa-solid fa-code"></i>
           </span>
         </div>
@@ -35,32 +39,42 @@
           class="glass absolute inset-[8px] rounded-tr-[100%] rounded-[50px] border-l border-l-white border-b border-b-white transiton-5"
         >
           <div class="content">
-            <h1>M.Hesam Moradian</h1>
-            <p>
+            <h1 class="text-[20px]">M.Hesam Moradian</h1>
+            <p class="mt-[7px] text-[#4600a1]">
               Can you guess if this card was made with Three.js or Tailwind?
             </p>
           </div>
 
-          <div class="footer">
-            <div class="social">
-              <span class="social_icons">
+          <div
+            class="footer absolute bottom-[20px] left-[30px] right-[30px] flex items-center justify-between"
+          >
+            <div class="social gap-[10px] flex">
+              <span
+                class="social_icons w-[30px] h-[30px] bg-white rounded-full flex items-center justify-center cursor-pointer transition-all delay-500"
+              >
                 <a href="https://github.com/m-hesam-moradian">
-                  <i class="fa-brands fa-github "></i>
+                  <i class="fa-brands fa-github"></i>
                 </a>
               </span>
-              <span class="social_icons">
+              <span
+                class="social_icons w-[30px] h-[30px] bg-white rounded-full flex items-center justify-center cursor-pointer transition-all delay-500"
+              >
                 <a href="https://www.linkedin.com/in/m-hesam-moradian/">
                   <i class="fa-brands fa-linkedin"></i>
                 </a>
               </span>
-              <span class="social_icons">
+              <span
+                class="social_icons w-[30px] h-[30px] bg-white rounded-full flex items-center justify-center cursor-pointer transition-all delay-500"
+              >
                 <a href="https://t.me/m_hesam_moradian">
                   <i class="fa-brands fa-telegram"></i>
                 </a>
               </span>
             </div>
 
-            <div class="link">
+            <div
+              class="link text-[#6f00c3] cursor-pointer text-[14px] transition-all delay-400 ease-in-out"
+            >
               Result
               <i class="fa-solid fa-arrow-up-right-from-square"></i>
             </div>
